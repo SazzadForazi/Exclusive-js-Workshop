@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px 80px;
+    
+}
+.sign-in{
+cursor: pointer;
+background-color: green;
+color: white;
+padding: 5px 10px;
+border: 0;
+}
+.header-main{
+/* margin-left: 100px; */
+padding: 20px 80px;
+background-color: #eee;
+height: 260px;
+}
+.heading{
+    font-weight: 800;
+    
+
+}
+.learn-button{
+    cursor: pointer;
+background-color: green;
+color: white;
+padding: 10px 15px;
+border: 0;
+border-radius: 5px;
+
+}
+.left{
+    width: 70%;
+    /* border: 1px solid red; */
+}
+.right{
+    width: 30%;
+    /* border: 1px solid rgb(89, 0, 255); */
+}
+.main{
+    display: flex;
+    height: 1020px;
+    width: 100%;
+    padding: 20px 40px;
+}
+.js-config{
+    padding: 20px 40px;
+}
+#tutorial-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    padding: 10px 20px;
+}
+#personal-training,#recent-video{
+    margin: 10px 20px;
+    /* border: 1px solid green; */
+}
+#recent-video ul{
+    margin: 5px 30px;
+}
